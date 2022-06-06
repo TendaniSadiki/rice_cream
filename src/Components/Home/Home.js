@@ -11,9 +11,9 @@ export default function Home(){
         <br></br>
         <br></br>
         <br></br>
-            <h1>
-            Lobby
-            </h1>
+            <div className="leftContent">
+
+            </div>
             
            
         </div>

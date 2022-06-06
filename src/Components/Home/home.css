@@ -16,6 +16,11 @@ body{
        min-height: 100%;
        margin: auto;
    }
+   .leftContent{
+     width: 40%;
+     background: yellow;
+     height: 500px;
+   }
   * {
     box-sizing: border-box;
   }
