@@ -82,12 +82,13 @@
 }
 .Navigation div {
  display: inline-block;
- margin-left: 5px;
+ margin-left: 70px;
  
 }
 .Navigation .linksContainer button:hover{
   background: #FFFDFF;
   border-radius: 50%;
+  border: 0.5px ridge black;
  
 }
 .Navigation .linksContainer button{
