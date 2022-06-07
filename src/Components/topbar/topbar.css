@@ -62,12 +62,12 @@
 /*Computer screen*/
 .Navigation{
   width: 60%;
-  background: #e60ce6;
-  height: 50px;
+  height: 70px;
   top: 0;
   position: fixed;
   right: 0;
   float: right;
+  margin-top: 10px;
 }
 /*Break none*/
 .Navigation .linksContainer br{
@@ -80,16 +80,27 @@
   color: rgb(0, 0, 0);
   font-size: 1rem;
 }
-.Navigation span i:hover{
-  border-bottom: 2px solid rgb(255, 255, 255);
-  color:black;
-  }
-  
-/*Sign out button*/
-.Navigation .linksContainer .signout{
-  position: absolute;
-  right: 5%;
-  padding: 8px;
-  font-size: 1rem;
+.Navigation div {
+ display: inline-block;
+ margin-left: 5px;
+ 
 }
-
+.Navigation .linksContainer button:hover{
+  background: #FFFDFF;
+  border-radius: 50%;
+ 
+}
+.Navigation .linksContainer button{
+  border: none;
+  background: none;
+}
+.Navigation input[type=search]{
+  margin: -50px;
+  padding: 18px;
+  margin-left: 10px;
+}
+.Navigation input{
+  border-radius: 25px;
+  height: 30px;
+  width: 250px;
+}
