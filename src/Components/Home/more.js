@@ -1,6 +1,9 @@
-import React from 'react'
+import React , { useState } from 'react';
 import {CgQr} from 'react-icons/cg';
+import Menu from '../menu';
 function More() {
+   const [state, setState] = useState(Menu);
+
   return (
     <div className="centeredContent">
     <h1>Rice Cream</h1>
@@ -13,6 +16,7 @@ function More() {
     </div>
  
     <div className="detailContent">
+      
         <ul>
             <li><span>Details</span></li>
             <li><span>Ingredients</span></li>

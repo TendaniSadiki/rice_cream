@@ -63,9 +63,12 @@ body{
      height: 100%;
      height: 460px;
    }
-   .centeredContent h1, p, h3{
+   .centeredContent h1, h3{
      color: #433481 ;
      
+   }
+   .centeredContent p{
+     color: #CAC7CA;
    }
    .centeredContent h3{
      width:20%;
