@@ -125,10 +125,26 @@ body{
    }
    .centeredContent{
      width: 70%;
-     
      height: 100%;
      margin-top: -50px;
      
+   }
+   .bottomContent{
+     width:84%;
+     background:red;
+     height:50%;
+   }
+   .leftBottom{
+    width:30%;
+    background:blue;
+    height:100%;
+    float:left;
+   }
+   .rightBottom{
+    width:70%;
+    background: grey;
+    height:100%;
+    float:right;
    }
    .homeContentRightTwo{
      background: #F8F5FB;
@@ -139,6 +155,34 @@ body{
      border-radius: 15px;
      margin-top: -460px;
 
+   }
+   
+   .homeContentRightTwo ul .rightItems{
+    list-style:none;
+    width:110px;
+    height:110px;
+    background: #FFFFFF; 
+    margin:10px;  
+    text-align: center;
+    align-items:center;
+    border-radius: 15px;
+    cursor:pointer;
+   }
+   .homeContentRightTwo ul .rightItems:hover{
+    background:#7A6EC6;
+    color:#FFFFFF;
+   }
+   .overRall{
+     border-radius:50%;
+     background:yellow;
+     width:110px;
+    height:110px;
+    margin:10px;
+    list-style: none;
+    border: groove grey 1px;
+   }
+   .homeContentRightTwo ul .rightItems span i{
+    font-size:2.5rem;
    }
   * {
     box-sizing: border-box;
