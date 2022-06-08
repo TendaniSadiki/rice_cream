@@ -151,3 +151,97 @@
   height: 30px;
   width: 180px;
 }
+@media only screen and (min-width: 1200px) {
+
+  .Navigation{
+    width: 60%;
+    height: 80px;
+    top: 0;
+    position: fixed;
+    right: 0;
+    float: right;
+    margin-top: 30px;
+    color: #433481;
+  }
+  /*Break none*/
+  .Navigation .linksContainer br{
+    display: none;
+  }
+  /*Icons by default*/
+  .Navigation span i{
+    display: inline-block;
+    margin: 1.1vw;
+    font-size: 2rem;
+  }
+  .Navigation div {
+   display: inline-block;
+   margin-left: 70px;
+   
+  }
+  .Navigation .linksContainer button:hover{
+    background: #FFFDFF;
+    border-radius: 50%;
+    border: 0.5px ridge black;
+   
+  }
+  .Navigation .linksContainer button{
+    border: none;
+    background: none;
+  }
+  .Navigation input[type=search]{
+    margin: -50px;
+    padding: 18px;
+    margin-left: 10px;
+  }
+  .Navigation input{
+    border-radius: 25px;
+    height: 30px;
+    width: 280px;
+  }
+  
+  .Navigation{
+    width: 60%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    right: 0;
+    float: right;
+    margin-top: 10px;
+  }
+  /*Break none*/
+  .Navigation .linksContainer br{
+    display: none;
+  }
+  /*Icons by default*/
+  .Navigation span i{
+    display: inline-block;
+    margin: 1.1vw;
+    color: #433481;
+    font-size: 1rem;
+  }
+  .Navigation div {
+   display: inline-block;
+   margin-left: 20px;
+   
+  }
+  .Navigation .linksContainer button:hover{
+    background: #FFFDFF;
+    border-radius: 50%;
+    border: 0.5px ridge black;
+   
+  }
+  .Navigation .linksContainer button{
+    border: none;
+    background: none;
+  }
+  .Navigation input[type=search]{
+    margin: -50px;
+    padding: 18px;
+    margin-left: 10px;
+  }
+  .Navigation input{
+    border-radius: 25px;
+    height: 30px;
+    width: 300px;
+  }
+}
