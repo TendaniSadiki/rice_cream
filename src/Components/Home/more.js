@@ -1,9 +1,17 @@
 import React , { useState } from 'react';
 import {CgQr} from 'react-icons/cg';
-import Menu from '../menu';
-function More() {
-   const [state, setState] = useState(Menu);
 
+import bottomPic from '../images/bottomflower.png';
+import Details from "../details";
+import Ingredient from "../method";
+import Direction from "../direction";
+
+function More() {
+
+   const [activeBtn, setActiveBtn] = useState(0);
+     const toogle=(index) =>{ 
+       setActiveBtn(index)
+    }
   return (
     <div className="centeredContent">
     <h1>Rice Cream</h1>
@@ -18,17 +26,20 @@ function More() {
     <div className="detailContent">
       
         <ul>
-            <li><span>Details</span></li>
-            <li><span>Ingredients</span></li>
-            <li><span>Direction</span></li>
+            <li onClick={()=>toogle(0)} className={activeBtn === 0 ? 'activebtn' : "activebtn2" }><span>Details</span></li>
+            <li onClick={()=>toogle(1)} className={activeBtn === 1 ? 'activebtn' : "activebtn2" }><span>Ingredients</span></li>
+            <li onClick={()=>toogle(2)} className={activeBtn === 2 ? 'activebtn' : "activebtn2" }><span>Direction</span></li>
         </ul>
     </div>
     <div className="bottomContent">
         <div className="leftBottom">
-        <h1>I'm left</h1>
+        <img src={bottomPic}></img>
         </div>
         <div className="rightBottom">
-            <h1>I'm right</h1>
+            {
+                ( activeBtn === 0 ? <Details /> : activeBtn === 1 ? <Ingredient /> : <Direction /> )
+            }
+         
         </div>
 
     </div>

@@ -7,6 +7,8 @@ body{
   overflow-y: hidden; 
     
    }
+
+   
    body{
        min-height: 100%;
    }
@@ -109,17 +111,19 @@ body{
     border-top:1px grey ridge;
     border-bottom:1px grey ridge;
     border-radius: 0px 50px 50px 0px;
+    width: 93%;
+
     
    }
    .detailContent ul li{
     list-style: none;
     display: inline-flex;
-    width:30%;
+    width:26%;
     height:40px;
     border-radius: 15px;
     align-items: center;
     text-align: center;
-    margin-left:10px;
+    margin-left:21px;
     
    }
    .detailContent ul li:hover{
@@ -134,18 +138,57 @@ body{
    }
    .bottomContent{
      width:84%;
-     background:red;
      height:50%;
    }
+   #myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    width: 66%;
+    height: 8px;
+    background-color: #04AA6D;
+    margin-top: 60px;
+  }
+  #myProgress2 {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #myBar2 {
+    width: 22%;
+    height: 8px;
+    background-color: #000000;
+    margin-top: 60px;
+  }
+  .leftBottomContent{
+    float: left;
+  
+  }
+  .leftBottom img{
+    margin-top: 120px;
+    margin-left: -40px;
+  }
+  .rightBottomContent{
+    float: right;
+    
+   
+  }
+  
+  .rightBottomText{
+    font-size: 1rem;
+  
+    
+  }
    .leftBottom{
     width:30%;
-    background:blue;
+  
     height:100%;
     float:left;
    }
    .rightBottom{
     width:70%;
-    background: grey;
     height:100%;
     float:right;
    }
@@ -184,6 +227,12 @@ body{
     list-style: none;
     border: groove grey 1px;
    }
+   .activebtn{
+    background:#7A6EC6;
+    color:#FFFFFF;
+    cursor:pointer;
+   }
+   
    .homeContentRightTwo ul .rightItems span i{
     font-size:2.5rem;
    }
@@ -219,6 +268,11 @@ body{
          position: absolute;
          top: 0;
          left: 0;
+       }
+       .leftContent img{
+         margin-top: 30px;
+         margin-left: 60px;
+        
        }
        .contentOver{
          background: #FFFFFF;
@@ -343,13 +397,13 @@ body{
       }
       .leftBottom{
        width:30%;
-       background:blue;
+    
        height:100%;
        float:left;
       }
       .rightBottom{
        width:70%;
-       background: grey;
+      
        height:100%;
        float:right;
       }
