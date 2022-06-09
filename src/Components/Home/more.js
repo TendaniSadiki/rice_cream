@@ -5,7 +5,7 @@ import bottomPic from '../images/bottomflower.png';
 import Details from "../details";
 import Ingredient from "../method";
 import Direction from "../direction";
-
+  
 function More() {
 
    const [activeBtn, setActiveBtn] = useState(0);

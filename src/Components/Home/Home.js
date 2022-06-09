@@ -1,7 +1,7 @@
 import "./home.css";
 import More from "./more";
 import {CgBookmark} from 'react-icons/cg';
-import {CgCamera} from 'react-icons/cg';
+import tape from "../images/tape.png";
 import {CgAdd} from 'react-icons/cg';
 import logo from '../images/logo.png';
 import bottleImg from '../images/ricebottle.png';
@@ -31,12 +31,13 @@ export default function Home(){
         <div className="homeContentRightTwo">
             <ul>
                 <li className="rightItems"><span><i><CgBookmark/></i><p>Save</p></span></li>
-                <li className="rightItems"><span><i><CgCamera/></i><p>Intro</p></span></li>
+                <li className="rightItems"><span><i><img src={tape}></img></i><p>Intro</p></span></li>
                 <li className="rightItems"><span><i><CgAdd/></i><p>Purchase</p></span></li>
             </ul>
             <ul>
-                <li className="overRall">
-                   
+                <li className="overRall" >
+                <div class="ui-values">6.0</div>
+            <div class="ui-labels">Score</div>
                 </li>
             </ul>
         </div> 
