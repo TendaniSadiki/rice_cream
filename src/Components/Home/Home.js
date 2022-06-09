@@ -3,7 +3,8 @@ import More from "./more";
 import {CgBookmark} from 'react-icons/cg';
 import {CgCamera} from 'react-icons/cg';
 import {CgAdd} from 'react-icons/cg';
-import logo from '../images/logo.png'
+import logo from '../images/logo.png';
+import bottleImg from '../images/ricebottle.png';
 
 
 
@@ -17,12 +18,13 @@ export default function Home(){
         <br></br>
         <br></br>
         <div className='leftContent'>
-             <img src={logo}></img>    
+             <img className="logo" src={logo}></img>    
         </div>
         <div className="contentOver">
                 <div className="circleContent">
-
+                    
                 </div>
+                <img src={bottleImg} className="bottleImg" ></img>
         </div>
         <div className="homeContentRight">
            <More/>
@@ -34,7 +36,7 @@ export default function Home(){
             </ul>
             <ul>
                 <li className="overRall">
-                    
+                   
                 </li>
             </ul>
         </div> 

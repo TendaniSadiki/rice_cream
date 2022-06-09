@@ -4,7 +4,7 @@ body{
   height: auto;
   width: 100%;
   color: #433481;  
-  overflow-y: hidden; 
+  overflow: hidden; 
     
    }
 
@@ -148,7 +148,7 @@ body{
   #myBar {
     width: 66%;
     height: 8px;
-    background-color: #04AA6D;
+    background-color: #D0D79E;
     margin-top: 60px;
   }
   #myProgress2 {
@@ -159,7 +159,7 @@ body{
   #myBar2 {
     width: 22%;
     height: 8px;
-    background-color: #000000;
+    background-color: #EDCEB0;
     margin-top: 60px;
   }
   .leftBottomContent{
@@ -172,13 +172,14 @@ body{
   }
   .rightBottomContent{
     float: right;
+    margin-top: 0px;
     
    
   }
   
   .rightBottomText{
     font-size: 1rem;
-  
+    
     
   }
    .leftBottom{
@@ -269,10 +270,14 @@ body{
          top: 0;
          left: 0;
        }
-       .leftContent img{
+       .leftContent .logo{
          margin-top: 30px;
          margin-left: 60px;
         
+       }
+      .bottleImg{
+        margin-top: -150px;
+        position: absolute  ;
        }
        .contentOver{
          background: #FFFFFF;
