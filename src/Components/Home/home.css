@@ -180,7 +180,7 @@ body{
   }
   .leftBottom img{
     margin-top: 20px;
-    margin-left: -30px;
+    margin-left: -60px;
     
   }
   .rightBottomContent{
@@ -235,8 +235,8 @@ body{
    .overRall{
     position: relative;
     display: inline-block;
-    width: 10rem;
-    height: 10rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 9rem;
     margin:1.5rem;
     border: 0.5rem solid #7A6EC6;
@@ -253,7 +253,12 @@ body{
     color:#FFFFFF;
     cursor:pointer;
    }
+   .leftContent .logo{
+    
+    margin-left: 56px;
+    margin-top:10px;
    
+  }
    .homeContentRightTwo ul .rightItems span i{
     font-size:2.5rem;
    }
@@ -487,6 +492,22 @@ body{
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+       }
+       .overRall{
+        position: relative;
+        display: inline-block;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 9rem;
+        margin:1.5rem;
+        border: 0.5rem solid #7A6EC6;
+        box-shadow: inset 0 0 7px grey;
+        border-left-color: gray;
+        border-top-color: gray ;
+        border-right-color: #7A6EC6;
+        border-bottom-color:#7A6EC6;
+        text-align: center;
+        box-sizing: border-box;
        }
   }
    @media screen and (min-width: 720px) {
